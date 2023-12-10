@@ -1,0 +1,66 @@
+.signin_section{
+    height: 767px;
+    width: 100%;
+}
+.signin_section img{
+    width: 100%;
+    height: 767px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.signin_container{
+    height: 648px;
+    width: 50%;
+    background-color: black;
+    opacity: .7;
+    border-radius: 40px;
+    margin-left: 45%;
+    position: absolute;
+    top: 14%;
+}
+
+.signin_container .sign_up{
+    text-align: center;
+    font-size: 48px;
+    color: rgb(79, 164, 254);
+}
+
+form .info, form input{
+    color: white;
+    font-size: 20px;
+    margin-left: 15%;
+    opacity: 1;
+}
+form input{
+    border-radius: 5px;
+    width: 70%;
+    opacity: 1;
+    color: black;
+    font-size: 20px;
+    height: 40px;
+}
+
+#error{
+    font-size: 14px;
+    margin-left: 15%;
+}
+button{
+    /* margin-left: 15%; */
+}
+.btn {
+    font-size: 20px;
+    border-radius: 3px;
+    width: 20%;
+}
+.btn_signin{
+    color: white;
+    font-size: 20px;
+}
+.sign_in{
+    color: rgb(79, 164, 254);
+    font-size: 20px;
+}
+.signup_box{
+    text-align: center;
+    margin-top: 10px;
+}

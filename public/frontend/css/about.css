@@ -1,0 +1,151 @@
+ /* active page css */
+
+#about{
+	color: rgb(0, 169, 215);
+}
+
+
+
+
+
+
+ 
+ /* first image of all pages  */
+
+
+ .page_container{
+    width: 100%;
+    height: auto;
+    font-family: josefin-sans;
+}
+.image{
+    height: 470px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 470px;
+}
+.image p{
+    position: absolute;
+  top: 50%;
+  left: 24%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 40px;
+  line-height: 35px;
+  text-align: left;
+}
+
+
+
+
+
+
+/* about sections in the descriptions  */
+
+
+.about_container{
+	width:95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+	margin-top:15px;
+    margin-bottom: 10px;
+}
+.about_container p{
+	font-size: 16px;
+	margin-left:70px;
+	text-align: center;
+}
+.about-contact{
+	width:45%;
+	height:500;
+}
+.container11{
+	width:80%;
+    margin-left: 10%;
+	height: 688px;
+	background-color: rgb(208, 222, 208);
+}
+.map_container{
+    display: flex;
+	
+}
+.about_sec{
+	width:40%;
+	height:auto;
+	padding-left:37px;
+    padding-top: 15px;
+}
+
+.pic{
+	overflow: hiddden;
+
+}
+.pic img{
+	width:95%;
+	height:688px;
+}
+/* .pic:hover img{
+	transform: translateX(3%);
+
+} */
+.container2{
+	width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.about_container3{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 481px;
+}
+.container3{
+	width: 100%;
+	position: relative;
+	height:240px;
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap:7px;
+
+}
+.image_about_sec{
+	width: 355px;
+	height: 100px;
+
+}
+.pic1{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+
+}
+.pic1 img{
+	width: 398px;
+	height: 235px;
+}
+.pic1:hover img{
+	transform:scale(1.1);
+}
+.container4{
+	width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container4 h1{
+	text-align: center;
+	color: rgb(79, 164, 254);
+	font-size: 20px;
+}
+.container4 p{
+	font-size: 16px;
+	text-align: center;
+	
+}

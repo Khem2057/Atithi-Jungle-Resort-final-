@@ -1,0 +1,141 @@
+ /* active page css */
+
+#dining{
+	color: rgb(0, 169, 215);
+}
+
+
+
+
+ 
+ /* first image of all pages  */
+
+
+ .page_container{
+    width: 100%;
+    height: auto;
+    font-family: josefin-sans;
+}
+.image{
+    height: 470px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 470px;
+}
+.image p{
+    position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 40px;
+  line-height: 35px;
+  text-align: left;
+}
+.image p span{
+    font-size: 20px;
+}
+
+
+
+
+/* dining sections  */
+
+
+.dining{
+	width: 80%;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+	
+}
+.multi_cuisine{
+	font-family: 'Times New Roman', Times, serif;
+	word-spacing: 10px;
+	letter-spacing: 4px;
+}
+.restaurant{
+	color: rgb(0, 169, 215);
+}
+.content{
+	width: 50%;
+	padding: 5px;
+
+}
+.content h1{
+	font-size: 28px;
+	font-weight: bold;
+	color: 218EF2;
+	padding: 5px;
+}
+.content p{
+	font-size: 16px;
+	padding: 5px;
+}
+.diningimage{
+	overflow: hidden;
+	padding-left: 40px;
+}
+.diningimage img{
+	width: 565px;
+	height: 311px;
+
+}
+/* .diningimage:hover img{
+	transform:scale(1.1);
+} */
+
+.facility{
+	width:100%;
+	height:430px;
+	background-color:rgb(208, 222, 208);
+	margin-bottom: 20px;
+	margin-top: 15px;
+
+}
+.facilitybox{
+	padding-top: 15px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 70%;
+	height: 80%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	column-gap: 25px;
+
+}
+.facilitycontainer{
+    background-color: white;
+    padding:40px 20px;
+    height: 170px;
+    width: 100%;
+    margin:15px;
+
+}
+.list_item{
+	/* padding:100px; */
+
+	font-size: 30px;
+	color: black;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+.facilitycontainer h2{
+	font-size: 20px;
+    text-align: center;
+    
+}
+.facilitycontainer:hover{
+	transform:scale(0.98);
+	background-color:218EF2;
+}

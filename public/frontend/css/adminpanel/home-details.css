@@ -1,0 +1,81 @@
+#h-detail{
+    color: rgb(79, 164, 254);
+    background-color: rgba(255, 255, 255, 0.503);
+    
+}
+
+
+
+.admin_section{
+    height: auto;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.admin-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: aqua; */
+}
+.hotel-details{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.hotel-details h1{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hotel-details form{
+    margin-top: 20px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 25px;
+    color: white;
+}
+
+.hotel-details form input{
+    font-size: 22px;
+}
+.fd{
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.612);
+    padding: 20px;
+    border-radius: 5px;
+}
+.s-input{
+    width: 350px;
+}
+.btn-change{
+    color: white;
+    background-color: rgb(79, 164, 254);
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+.btn-change:hover{
+    color: rgb(79, 164, 254);
+    background-color: white;
+}
+
+
+
+
+table{
+    /* border: 1px; */
+    border-collapse: collapse;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    background-color: rgba(240, 248, 255, 0.707);
+    margin-bottom: 30px;
+    text-align: center;
+}

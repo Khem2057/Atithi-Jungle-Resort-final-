@@ -1,0 +1,100 @@
+#h-contact{
+    color: rgb(79, 164, 254);
+    background-color: rgba(255, 255, 255, 0.503);
+}
+
+
+
+.admin_section{
+    height: auto;
+    width: 100%;
+
+}
+.admin-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* background-color: aqua; */
+}
+.contact-details{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.contact-details h1{
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-container{
+    display: flex;
+
+}
+.contact-details form{
+    margin-top: 20px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    
+}
+.division{
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.fd{
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.612);
+    padding: 15px;
+    border-radius: 5px;
+}
+.contact-details form input{
+    font-size: 22px;
+}
+.btn-contact{
+    color: white;
+    background-color: rgb(79, 164, 254);
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100px;
+}
+.s-input{
+    width: 320px;
+}
+
+
+
+/* query sections  */
+
+
+.query-section{
+    width: 90%;
+    padding-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.p-query{
+    font-size: 30px;
+    
+}
+
+
+
+
+table{
+    /* border: 1px; */
+    border-collapse: collapse;
+    font-size: 16px;
+    width: 100%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 15px;
+    background-color: rgba(240, 248, 255, 0.707);
+    margin-bottom: 30px;
+    text-align: center;
+}

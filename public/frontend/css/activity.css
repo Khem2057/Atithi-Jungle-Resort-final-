@@ -1,0 +1,121 @@
+ /* active page css */
+
+#activity{
+	color: rgb(0, 169, 215);
+}
+
+
+
+
+ 
+ /* first image of all pages  */
+
+
+ .page_container{
+    width: 100%;
+    height: auto;
+    font-family: josefin-sans;
+}
+.image{
+    height: 470px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 470px;
+}
+.image p{
+    position: absolute;
+  top: 50%;
+  left: 21%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 40px;
+  line-height: 35px;
+  text-align: left;
+}
+
+
+
+/* activity sections */
+
+
+
+.aboutactivity{
+	text-align: center;
+	padding: 15px;
+}
+.aboutactivity h1{
+	color:218EF2;
+	font-size: 28px;
+	font-weight: bold;
+}
+.aboutactivity h1 span{
+    color: rgb(79, 164, 254);
+}
+.aboutactivity p{
+	font-size: 16px;
+	margin-top: 10px;
+	width: 70%;
+	margin-left: 15%;
+    margin-right: 15%;
+}
+.activity-section{
+	width: 100%;
+}
+.activity-wrap{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.activity-section /*.activity-wrap*/{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.activity-section .activity-wrap .activity-image{
+	width: 100%;
+	padding-top:5px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+}
+.activity-section .activity-wrap .activity-image .activity{
+	width: 100%;
+	position: relative;
+}
+.activity-section .activity-wrap .activity-image .activity .image-section{
+	width: 100%;
+
+}
+.activity-section .activity-wrap .activity-image .activity .image-section img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding:5px;
+	margin-left:1px;
+}
+/*.activity-section .activity-wrap .activity-image .activity*/ .caption{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* padding: 10px; */
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+.activity-section .activity-wrap .activity-image .activity .caption:hover{
+	opacity: 1;
+}
+.activity-section .activity-wrap .activity-image .activity .caption h2{
+	font-size: 20;
+}

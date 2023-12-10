@@ -1,0 +1,158 @@
+ /* active page css */
+
+#package{
+	color: rgb(0, 169, 215);
+}
+ 
+
+
+
+ /* first image of all pages  */
+
+
+ .page_container{
+    width: 100%;
+    height: auto;
+    font-family: josefin-sans;
+}
+.image{
+    height: 470px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.image img{
+    object-fit: cover;
+    width: 100%;
+    height: 470px;
+}
+.image p{
+    position: absolute;
+  top: 50%;
+  left: 19%;
+  transform: translate(-50%,-50%);
+  color: white;
+  font-size: 40px;
+  line-height: 35px;
+  text-align: left;
+}
+
+
+
+
+/* ----------------------package sections ---------------------- */
+
+
+
+
+.p_container {
+	height: auto;
+	margin-bottom: 30px;
+	width:1366;
+  font-size: 28px;
+  padding-top: 10px;
+  text-align: center;
+  /* color: rgb(79, 164, 254); */
+  font-family: 'Times New Roman', Times, serif;
+}
+.p_container1{
+	width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.p_container1 p{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 2px;
+	margin-right:20px;
+	/* margin-left: 350px; */
+	color:000000;
+
+}
+.p_resort_container{
+  width: 100%;
+}
+.p_resort_cards{
+	width:78%;
+	align-items: center;
+	display:flex;
+	justify-content: space-between;
+	margin:auto;
+}
+.p_resort_card{
+	display: flex;
+	flex-direction: column;
+	margin:0px 15px;
+	box-shadow: 0px 0px 0px;
+	background-color: FFFFFF;
+
+
+}
+.p_resort_image{
+  overflow: hidden;
+}
+.p_resort_card img{
+	width:352px;
+	height:443px;
+  object-fit: cover;
+}
+.p_resort-content{
+	padding:2px;
+}
+.p_resort-content h2{
+	font-size: 20px;
+	font-weight:4px;
+	text-align: center;
+	color: Black;
+	margin-bottom:1px;
+	margin-top: 4px;
+
+}
+.p_resort-content p{
+	font-size: 16px;
+	color: black;
+	text-align: center;
+	margin-bottom:10px;
+	margin-top: 4px;
+}
+
+.package_links{
+  text-decoration: none;
+  border-style: none;
+  padding-left: 10px;
+  font-size: smaller;
+  padding-right: 10px;
+  border-radius: 3px;
+  background-color: rgb(79, 164, 254);
+  color: white;
+  cursor: pointer;
+}
+.package_links:active{
+  color: rgb(79, 164, 254);
+  background-color: white;
+}
+  
+
+
+
+/* the information of the differnet packages  */
+
+
+.package1-info{
+	font-size: 16px;
+	width: 75%;
+	padding: 5%;
+	margin-left: 12.5%;
+	margin-right: 12.5;
+	text-align: justify;
+	background-color: rgba(255, 255, 255, 0.805);
+	margin-bottom: 30px;
+	transition: 2s ease;
+}
+.dinner{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.topi{
+	font-weight: bolder;
+}

@@ -1,0 +1,341 @@
+
+/* active page css */
+
+#home{
+	color: rgb(0, 169, 215);
+}
+
+
+
+
+
+
+/* .video_container{
+	background-image: url('img/background_img.jpg');
+	height: 100vh;
+	width: 100%;
+	
+} */
+
+/* aboutall sections  */
+
+
+.about_container{
+  width:100%;
+  height: 420px;
+	margin:50px auto; 
+  background-color: rgb(208, 222, 208);
+  margin: 0px;
+}
+.about-content{
+	display:flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 40px;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.image{
+	flex: 1;
+  
+	margin-left:4px;
+	overflow: hidden;
+	border-radius: 0px;
+}
+.image img{
+	width:100%;
+  height: 311px;
+}
+.content{
+	flex: 1;
+	margin-right:15px;
+	margin-top: 20px;
+}
+.content h2{
+  font-family: 'Times New Roman', Times, serif;
+	text-align: left;
+	font-size: 28px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.content p{
+  text-align: justify;
+}
+.content h2 span{
+  color: rgb(79, 164, 254);
+}
+.readmore{
+	display:inline-block;
+	background-color:rgb(79, 164, 254);
+	color:#fff;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: regular;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.readmore:hover{
+	background-color:white;
+  color: rgb(79, 164, 254);
+}
+
+
+
+
+ /* ------------feature of website ---------------- */
+
+.pages_link{
+  text-decoration: none;
+  width: 40%;
+}
+.resort_card:hover {
+  background-color: rgb(79, 164, 254);
+  transition:  .5s ease;
+}
+.resort_card_container{
+  width: 100%;
+  height: 400px;
+  background-color: none;
+  align-items: center;
+}
+.resort_cards{
+	width:100%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 45px;
+}
+.resort_card{
+  height: 310px;
+	flex-direction: column;
+	margin:0px 15px;
+	box-shadow: 0px 0px 2px;
+	background-color: rgb(208, 222, 208);
+}
+.resort-image{
+  width:100%;
+}
+
+.resort_card img{
+	width:100%;
+	height:242.78px;
+}
+.resort-content{
+	padding:2px;
+}
+.resort-content h2{
+	font-size: 20px;
+	font-weight:4px;
+	text-align: center;
+	color: Black;
+	margin-bottom:1px;
+	margin-top: 4px;
+
+}
+.resort-content p{
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	margin-bottom:10px;
+	margin-top: 4px;
+}
+
+
+
+
+/* ----------------------package sections ---------------------- */
+
+
+
+.p_container{
+	height: 555;
+	width:1366;
+	background-color: rgb(208, 222, 208);
+}
+.p_container .p_p{
+  font-size: 28px;
+  padding-top: 10px;
+  text-align: center;
+  color: rgb(79, 164, 254);
+  font-family: 'Times New Roman', Times, serif;
+}
+.p_container1{
+	width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.p_container1 p{
+	text-align: center;
+	font-size: 16px;
+	margin-top: 2px;
+	margin-right:20px;
+	/* margin-left: 350px; */
+	color:000000;
+
+}
+.p_resort_container{
+  width: 100%;
+  height: auto;
+}
+.p_resort_cards{
+	width:78%;
+	align-items: center;
+	display:flex;
+	justify-content: space-between;
+	margin:auto;
+}
+.p_resort_card{
+	display: flex;
+	flex-direction: column;
+	margin:0px 15px;
+	box-shadow: 0px 0px 0px;
+	background-color: FFFFFF;
+
+
+}
+.p_resort_image{
+  overflow: hidden;
+}
+.p_resort_card img{
+	width:100%;
+	height:443px;
+  object-fit: cover;
+}
+.p_resort-content{
+	padding:2px;
+}
+.p_resort-content h2{
+	font-size: 20px;
+	font-weight:4px;
+	text-align: center;
+	color: Black;
+	margin-bottom:1px;
+	margin-top: 4px;
+
+}
+
+.package_links{
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  background-color: rgb(79, 164, 254);
+  border-radius: 3px;
+  
+}
+/* .package_links a{
+	background-color: rgb(79, 164, 254);
+  	color: white;
+	height: 20px;
+	width: 30px;
+	padding-bottom: 0px;
+} */
+.package_links:hover{
+  color: rgb(79, 164, 254);
+  background-color: white;
+}
+
+.package_link_container{
+	text-align: center;
+	padding: 10px;
+}
+  
+
+
+
+/* review sections  */
+
+
+.review_container_box{
+	margin-top: 20px;
+	width: 100%;
+	height: 554px;
+}
+.reviewsection{
+	text-align: center;
+  }
+  .reviewsection h1{
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+  }
+  .reviewsection p{
+	width:60%;
+	font-size: 16px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+  }
+  .review{
+	text-align: center;
+	
+  }
+  .review h1{
+	 font-size: 28px;
+	 margin-left: 40px;
+	 margin-right: 40px;
+	font-weight: bold;
+	text-align: center;
+  }
+   .aboutreview{
+	margin-top: 60px;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	grid-gap: 15px;
+	
+	width:75%;
+	height:270px;
+	display: flex;
+	justify-content: center;
+  }
+  .review .aboutreview .reviewdetail{
+	width: 80%;
+	font-size: 16px;
+    height: 100%;
+    margin: 5px;
+	position: relative;
+	text-align: center;
+	text-align: justify;
+	padding: 5px;
+	background-color: rgb(208, 222, 208);
+	box-shadow: 0 .1rem .5rem rgba(0,0,0,.1);
+	transition: .5s ease;
+	
+  }
+  .review .aboutreview .reviewdetail:hover{
+	transform: scale(1.1);
+	background-color: 218EF2;
+  }
+  
+  .review .aboutreview .reviewdetail .review_image{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 45px;
+  }
+  .review .aboutreview .reviewdetail .review_image img{
+	width: 6rem;
+	height: 6rem;
+	object-fit: cover;
+	border-radius: 50%;
+	position: absolute;
+	top: -3rem;
+  }
+  .review .aboutreview .reviewdetail .name{
+  padding: 5px;
+  }
+  
+  .review .aboutreview .reviewdetail .name h1{
+	font-size: 24px;
+  
+  }
+  .review .aboutreview .reviewdetail .name p{
+	color: #000;
+	font-size: 16px;
+  }
+  

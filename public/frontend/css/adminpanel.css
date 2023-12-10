@@ -1,0 +1,15 @@
+.admin_section{
+    height: auto;
+    width: 100%;
+}
+.admin-container{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.hotel-details{
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+}
